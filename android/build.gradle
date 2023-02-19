@@ -1,5 +1,3 @@
-package android
-
 group 'com.humazed.google_map_location_picker'
 version '1.0-SNAPSHOT'
 
