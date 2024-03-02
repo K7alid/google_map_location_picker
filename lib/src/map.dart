@@ -138,7 +138,8 @@ class MapPickerState extends State<MapPicker> {
   Widget build(BuildContext context) {
     ThemeData theme = Theme.of(context);
     flatButtonStyle = TextButton.styleFrom(
-      primary: Colors.white,
+      foregroundColor: MaterialStateProperty.all(Colors.white),
+      // primary: Colors.white,
       //minimumSize: Size(88, 44),
       padding: EdgeInsets.symmetric(horizontal: 16.0),
       shape: const RoundedRectangleBorder(
